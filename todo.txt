@@ -1,4 +1,5 @@
 done - add behave example
+done - coverage
 - assertion library for use with behave
-- coverage
 - add mocking example
+- add flake8 checking to PyCharm
