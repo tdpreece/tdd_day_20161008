@@ -1,1 +1,2 @@
 python -m unittest discover -p '*.py' test
+behave test/features

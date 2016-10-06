@@ -1,0 +1,4 @@
+done - add behave example
+- assertion library for use with behave
+- coverage
+- add mocking example
