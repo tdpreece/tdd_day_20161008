@@ -1,3 +1,4 @@
 behave==1.2.5
 coverage==4.2
+flake8==3.0.4
 parameterizedtestcase==0.1.0
