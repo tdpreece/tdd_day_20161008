@@ -6,7 +6,7 @@ class TestSomething(ParameterizedTestMixin, TestCase):
     @ParameterizedTestMixin.parameterize(
         ("input", "expected_output"),
         [
-            (1, 2),
+            (1, 1),
         ]
     )
     def test(self, input, expected_output):
