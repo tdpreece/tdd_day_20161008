@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-flake8
+# flake8
 
 rm .coverage*
 coverage run --parallel-mode --source='myproject,test' -m unittest discover -p '*.py' 'test'
-coverage run --parallel-mode --source='myproject,test' -m behave 'test/features'
+# coverage run --parallel-mode --source='myproject,test' -m behave 'test/features'
 coverage combine
 coverage report
