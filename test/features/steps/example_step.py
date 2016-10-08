@@ -15,3 +15,4 @@ def step_impl(context):
 @then('the ninja should engage the opponent')
 def step_impl(context):
     assert_that(1, equal_to(1))
+
